@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <style>
+        /* Internal Styles (Внутренние стили) */
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        /* Inline Styles (Inline Стили) */
+        h2 {
+            color: blue;
+        }
+
+        li {
+            color: green;
+        }
+
+        #loginEmail {
+            border: 2px solid red;
+        }
+
+        /* Child Selector (Child селектор) */
+        table > tbody > tr > td {
+            background-color: #f0f0f0;
+        }
+
+        /* Псевдокласс для Hover (для демонстрации) */
+        li:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Добро пожаловать на главную страницу!</h1>
+
+    <h2>Мои любимые игры:</h2>
+    <ul>
+        <li>Dragon Quest 3</li>
+        <li>Yakuza 0</li>
+        <li>Final Fantasy 6</li>
+        <li>Battlefield Bad Company 2</li>
+        <li>The Legend of Zelda: Skyward Sword</li>
+    </ul>
+
+    <h2>Мои любимые аниме:</h2>
+    <ul>
+        <li>Turn A Gundam</li>
+        <li>Dragon Quest: Dai no Daibouken</li>
+        <li>Lupin III: Part 2</li>
+        <li>Daiguard</li>
+        <li>New Getter Robo</li>
+    </ul>
+
+    <h2>Топ 3 аниме и игры:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Место</th>
+                <th>Аниме/Игра</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Dragon Quest 3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Turn A Gundam</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>The Legend of Zelda: Skyward Sword</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
